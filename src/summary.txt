@@ -1,3 +1,11 @@
+use .className and 'enter' to automatcally import te template 
 material-ui:- for icons
 react-currency-format:- for rendering money text
 use context api
+stripe library for payment
+cloud function for backend
+express backend
+
+
+// to bypass sudo
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
