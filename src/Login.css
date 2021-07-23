@@ -8,61 +8,61 @@
 }
 
 .login__logo {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
     object-fit: contain;
-    width: 100px;
+    width: 10vh;
     margin-left: auto;
     margin-right: auto;
 }
 
 .login__container {
-    width: 300px;
+    width: 30vh;
     height: fit-content;
     display: flex;
     flex-direction: column;
-    border-radius: 5px;
-    border: 1px solid lightgray;
-    padding: 20px;
+    border-radius: 0.5vh;
+    border: 0.1vh solid lightgray;
+    padding: 2vh;
 }
 
 .login__container > h1 {
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 2vh;
 }
 
 .login__container > form > h5 {
-    margin-bottom: 5px;
+    margin-bottom: 0.5vh;
 }
 
 .login__container  > form > input {
-    height: 30px;
-    margin-bottom: 10px;
-    border-radius: 5px;
+    height: 3vh;
+    margin-bottom: 1vh;
+    border-radius: 0.5vh;
     background-color: white;
     width: 98%;
 }
 
 .login__container > p {
-    margin-top: 15px;
-    font-size: 12px;
+    margin-top: 1.5vh;
+    font-size: 1.2vh;
 }
 
 .login__signInButton {
     background: #f0c14b;
-    border-radius: 5px;
+    border-radius: 0.5vh;
     width: 100%;
-    height: 30px;
-    border: 1px solid;
-    margin-top: 10px;
+    height: 3vh;
+    border: 0.1vh solid;
+    margin-top: 1vh;
     border-color: #a88734 #9c7e31 #846a29;
 }
 
 .login__registerButton {
-    border-radius: 5px;
+    border-radius: 0.5vh;
     width: 100%;
-    height: 30px;
+    height: 3vh;
     border: 1px solid;
-    margin-top: 10px;
+    margin-top: 1vh;
     border-color: darkgray;
 }

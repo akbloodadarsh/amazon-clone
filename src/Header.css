@@ -1,5 +1,5 @@
 .header {
-    width: 98.2vw;
+    width: 98.9vw;
     height: 6vh;
     display: flex;
     align-items: center;
@@ -8,24 +8,37 @@
     top: 0;
     z-index: 100;
 }
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 700px) {
+    .header {
+        width: 56.2vh;
+        height: 6vh;
+        display: flex;
+        align-items: center;
+        background-color: #131921;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+}
 
 .header__logo {
     width: 10vh;
     object-fit: contain;
     margin: 0 1vw;
-    margin-top: 18px;
+    margin-top: 1.8vh;
 }
 
 .header__search {
     display: flex;
     flex: 1;
     align-items: center;
-    border-radius: 25px;
+    border-radius: 2.5vh;
 }
 
 .header__searchInput {
     height: 1.2vh;
-    padding: 10px;
+    padding: 1vh;
     border: none;
     width: 100%; 
 }
@@ -50,11 +63,11 @@
 }
 
 .header__optionLineOne {
-    font-size: 10px;
+    font-size: 1vh;
 }
 
 .header__optionLineTwo {
-    font-size: 13px;
+    font-size: 1.3vh;
     font-weight: 800;
 }
 
