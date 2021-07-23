@@ -3,6 +3,7 @@ import './Orders.css';
 import {db} from './firebase'
 import { useStateValue } from './StateProvider';
 import Order from './Order'
+import './Orders.css'
 
 function Orders() {
     const [{basket, user}, dispatch] = useStateValue();
@@ -23,7 +24,8 @@ function Orders() {
         } else {
             setOrders([])
         }
-    }, [])
+    }, [user])
+    
     return (
         <div className="orders">
             <h1>Your Orders</h1>

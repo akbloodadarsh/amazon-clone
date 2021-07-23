@@ -12,27 +12,28 @@ function Home() {
                 <div className="home__row">
                     <Product
                         id="12321341"
-                        title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
-                        price={11.65}
+                        title="New Apple iPhone 12 Pro Max (256GB) - Pacific Blue
+                        4.6 "
+                        price={132200}
                         rating={5}
-                        image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
+                        image="https://m.media-amazon.com/images/I/71MHTD3uL4L._AC_UY218_.jpg"
                     />
                     <Product
                         id="49538094"
-                        title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
-                        price={2390}
+                        title="OnePlus 9 Pro 5G (Pine Green, 12GB RAM, 256GB Storage)"
+                        price={69999}
                         rating={4}
-                        image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
+                        image="https://m.media-amazon.com/images/I/612ytK4luvL._AC_UY218_.jpg"
                     />
                 </div>
 
                 <div className="home__row">
                     <Product
                         id="4903850"
-                        title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
-                        price={199.99}
-                        rating={3}
-                        image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
+                        title="New Apple Watch Series 6 (GPS, 44mm) - Silver Aluminium Case with White Sport Band"
+                        price={43900}
+                        rating={4}
+                        image="https://m.media-amazon.com/images/I/7158cliU8vL._AC_UY218_.jpg"
                     />
                     <Product
                         id="23445930"
