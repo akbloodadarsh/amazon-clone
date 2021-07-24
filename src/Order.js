@@ -11,6 +11,7 @@ function Order({ order }) {
             <h2>Order</h2>
             <p>{moment.unix(order.data.created).format("MMMM Do YYYY, h:mma")}</p>
             <p className="order__id">
+                <small>Order Id:&nbsp;&nbsp;</small>
                 <small>{order.id}</small>
             </p>
             {order.data.basket?.map(item => (
@@ -37,6 +38,6 @@ function Order({ order }) {
             />
         </div>
     )
-}
+} 
 
 export default Order

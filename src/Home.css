@@ -13,6 +13,13 @@
     margin-left: 0.5vw;
     margin-right: 0.5vw;
 }
+@media screen and (max-width: 640px) {
+    .home__row {
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+    }
+}
 
 .home__image {
     width: 100%;

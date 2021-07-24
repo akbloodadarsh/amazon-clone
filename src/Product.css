@@ -28,10 +28,8 @@
 
 .product__info {
     padding: 0.5vh;
-    max-height: 10vh;
     margin-top: 0.5vh;
 }
-
 .product__rating {
     display: flex;
 }
@@ -50,7 +48,10 @@
 }
 
 @media screen and (max-width: 700px) {
-    .product__info {
-
+    .product {
+        width: 49vh;
+    }
+    .product__info > p {
+        font-size: 3.5vw;
     }
 }

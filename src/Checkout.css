@@ -15,3 +15,16 @@
     padding: 0.1vh;
     border-bottom: 0.1vh solid lightgray;
 }
+
+@media screen and (max-width: 700px) {
+    .checkout {
+        display: flex;
+        flex-direction: column;
+    }
+    .checkout__left > div> h3 {
+        font-size: 5vw;
+    }
+    .checkout__title {
+        font-size: 5vw;
+    }
+}

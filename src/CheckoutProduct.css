@@ -9,8 +9,7 @@
     padding-left: 5vh;
     font-size: 1.7vh;
     font-weight: 800;
-
-}
+} 
 
 .checkoutProduct__info > button {
     background-color: #f0c14b;
@@ -33,7 +32,7 @@
 
 @media screen and (max-width: 700px) {
     .checkoutProduct__info {
-        width: 10vh;
+        width: 35vh;
         padding-left: 5vh;
         font-size: 1.7vh;
         font-weight: 800;
@@ -42,6 +41,7 @@
         background-color: #f0c14b;
         border: 0.1vh solid;
         margin-top: 1vh;
+        width: 22vh;
         border-radius: 5px;
         border-color: #a88734 #9c7e31 #846a29;
         color: #111;

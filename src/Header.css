@@ -1,5 +1,5 @@
 .header {
-    width: 98.9vw;
+    width: 98.2vw;
     height: 6vh;
     display: flex;
     align-items: center;
@@ -9,9 +9,9 @@
     z-index: 100;
 }
 /* On screens that are 992px or less, set the background color to blue */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 640px) {
     .header {
-        width: 56.2vh;
+        width: 56vh;
         height: 6vh;
         display: flex;
         align-items: center;
@@ -45,7 +45,7 @@
 
 .header__searchIcon {
     padding:0.48vh;
-    height: 2.2vh !important;
+    height: 2.3vh !important;
     background-color: #cd9042;
 }
 

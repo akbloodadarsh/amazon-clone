@@ -7,6 +7,8 @@
 }
 
 .order__id {
+    display: flex;
+    flex-direction: column;
     position: absolute;
     top: 4vh;
     right: 2vw;
@@ -16,3 +18,21 @@
     font-weight: 500;
     text-align: right;
   }
+
+  @media screen and (max-width: 700px) {
+    .order {
+      display: flex;
+      flex-direction: column;
+    }
+    .order > h1 {
+        font-size: 2vh;
+    }
+    .order > p {
+      font-size: 2vh;
+  }
+  .order__id {
+    position: unset;
+    display: flex;
+    flex-direction: row;
+  }
+}
